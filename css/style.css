@@ -1,0 +1,199 @@
+img {
+    max-width: 100%;
+}
+body{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+;
+}
+.bmw {
+    width: 100%; 
+    height: 100vh;
+    /*position: relative;*/
+    /*display: grid;*/
+    /*grid-template-rows: 100px 1fr;*/
+    background-image: url("../img/1597056170-1658-Bmw-3-Red.jpg");
+    background-size: cover;
+}
+.bmwsection{
+    margin: 0 auto;
+    width: 1400px;
+    
+}
+.nav {
+    padding: 0;
+}
+.nav__container{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0;
+    border-bottom: 1px solid white;
+    
+
+}
+
+.items {
+    display: inline-block;
+    margin-right: 2em;
+
+}
+.icons {
+    display: flex;
+    align-items: center;
+
+}
+.icons__li{
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    margin-left: 2em;
+    color: white;
+}
+.nav__links{
+color: white;
+
+}
+.bmw__container{
+    position: absolute;
+    bottom: 8%;
+    left: 15%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.descubrelo{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #1c68d5;
+    padding: 10px 60px;
+    margin-right: 500px;
+}
+main {
+    margin: 100px 0 0 180px;
+    margin-bottom: 20px;
+    /* border: 2px solid   black; */
+    width: 80%;
+    height: 100%;
+    color: grey;
+}
+main p{
+    margin-left: 40px;
+}
+.ul__tipos li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 2em;
+}
+.ul__tipos li a{
+    color: grey;
+}
+
+.ul__tipos li a:hover {
+    color: black;
+    font-size: 25px;
+    text-decoration: underline blue;
+}
+.bmw__modelos{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, );
+    justify-items: center;
+    gap: 10px;
+}
+
+.bmw__item {
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-items: auto;
+}
+.bmw__item .item1-bmw1 p{
+display: flex;
+flex-direction: column;
+justify-items: auto;
+color: black;
+}
+.item1-bmw1 h5, h2 {
+    color: black;
+    margin-bottom: 0px;
+}
+.item1-bmw1 a{
+    display: flex;
+    color: black;
+    
+}
+
+.item1-bmw1 a::before {
+    content: ">";
+}
+.item1-bmw1 p {
+    margin: 0px;    
+    padding-bottom: 20px;
+}
+.bmw-other {
+    margin: 200px 0 2em;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+.bmw-other__item a{
+    display: flex;
+    color: black;
+    
+}
+.bmw-other__item a::before {
+    content: ">";
+}
+
+.div__body--buttons{
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.div__body--buttons button{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: lightgrey; 
+    cursor: pointer;
+}
+footer{
+    width: 80%;
+    height: 250px;
+    margin: 100px 0 0 180px;
+    /* border: 1px solid black; */
+    background-color: lightgrey;
+    background-size: cover;
+}
+.footer__container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+
+}
+.box__footer{
+    display: flex;
+    flex-direction: column;
+}
+.box__footer a {
+    color: grey;
+}
